@@ -14,5 +14,15 @@ namespace InToGuide
         {
             InitializeComponent();
         }
+
+        private void Mentor_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Mentee_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
