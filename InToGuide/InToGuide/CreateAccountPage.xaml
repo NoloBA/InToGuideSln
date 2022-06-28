@@ -1,12 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="InToGuide.CreateAccountPage">
+             x:Class="InToGuide.CreateAccountPage"
+              NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+            <Image Source="createaccount.png"/>
+            <Entry Placeholder="Name"></Entry>
+            <Entry Placeholder="Surname"></Entry>
+            <Entry Placeholder="Qualification"></Entry>
+            <Entry Placeholder="Institution"></Entry>
+            <Entry Placeholder="Location"></Entry>
+            <Entry Placeholder="Cell number"></Entry>
+            <Entry Placeholder="ID Number"></Entry>
+            <Entry Placeholder="Hobbies"></Entry>
+            <Entry Placeholder="Email"></Entry>
+            <Entry Placeholder="Password"></Entry>
+            <Entry Placeholder="Confirm Password"></Entry>
+
+            <Label Text="Upload ID"/>
+            <Button x:Name="Add" Text="Add Attachment" FontSize="15" BackgroundColor="#F79726" CornerRadius="50" Clicked="Add_Clicked"/>
+            <Label Text="Upload CV"/>
+            <Label Text="Upload Qualification"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
