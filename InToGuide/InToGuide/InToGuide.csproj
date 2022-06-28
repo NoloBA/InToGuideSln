@@ -27,11 +27,10 @@
     <Folder Include="FirebaseHelper\" />
     <Folder Include="ModelView\" />
     <Folder Include="Model\" />
-    <Folder Include="View\" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Form1.xaml">
+    <EmbeddedResource Update="View\Form1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="IntroductionPage.xaml">
