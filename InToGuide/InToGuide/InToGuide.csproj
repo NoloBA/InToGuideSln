@@ -12,8 +12,8 @@
 
   <ItemGroup>
     <PackageReference Include="FirebaseDatabase.net" Version="4.0.7" />
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2478" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2478" />
   </ItemGroup>
 
   <ItemGroup>
@@ -74,5 +74,50 @@
     <EmbeddedResource Update="StartingPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="AboutPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="ConnectPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="CreateAccountPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="GraduateProfilePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="GradViewOfMentorPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="HelpAndSupportPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="LoginPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="MenteeMatchPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="MentorMatchPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="MentorProfilePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="NotificationsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="ResourcesPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="SettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="TemplatePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
   </ItemGroup>
 </Project>
