@@ -8,7 +8,7 @@
         <Label Text="Logos Image" HorizontalOptions="Center" FontSize="40"/>
         <Frame>
 
-         <Label Text="Welcome to InToGuide" BackgroundColor="#f79726" HorizontalOptions="Center" FontSize="30" FontAttributes="Bold"/>
+         <Label Text="Welcome to InToGuide!" BackgroundColor="#f79726" HorizontalOptions="Center" FontSize="30" FontAttributes="Bold"/>
         </Frame>
         <Label Text="INDUSTRY TOUR GUIDE" HorizontalOptions="Center" FontSize="10"/>
        
